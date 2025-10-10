@@ -1,0 +1,6 @@
+Panduan: Langkah-Langkah Mengambil project dari Github
+============================================================
+
+1. masuk ke penyimpanan local (biasanya -> C:\xampp\htdocs)
+2. ketik git clone (link repo/project yg ingin diambil) 
+3. setelah git clone maka folder project akan langsung ada didalam local kalian.

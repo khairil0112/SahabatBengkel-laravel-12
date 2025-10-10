@@ -1,0 +1,43 @@
+Panduan: Langkah-Langkah Pertama Kali Memasukkan Project ke GitHub
+============================================================
+
+1. Masuk ke folder project kamu
+   cd C:\xampp\htdocs\nama-project
+
+2. Inisialisasi Git di project
+   git init
+
+3. Tambahkan semua file ke staging area
+   git add .
+
+4. Buat commit pertama
+   git commit -m "First commit"
+
+5. Pastikan kamu berada di branch utama (main)
+   git branch -M main
+
+6. Hubungkan dengan repository GitHub
+   git remote add origin https://github.com/username/nama-repo.git
+
+   Contoh:
+   git remote add origin https://github.com/khairil0112/Laravel-12_Mr.syahril.git
+
+   Jika remote sudah pernah ditambahkan dan ingin menggantinya:
+   git remote set-url origin https://github.com/khairil0112/Laravel-12_Mr.syahril.git
+
+7. Push project ke GitHub
+   git push -u origin main
+
+   (Perintah -u berfungsi untuk mengingat koneksi ini, jadi berikutnya cukup gunakan 'git push')
+
+8. (Opsional) Cek koneksi dan status Git
+   git remote -v
+   git log --oneline
+
+------------------------------------------------------------
+Setelah setup awal, setiap kali kamu melakukan perubahan:
+   git add .
+   git commit -m "deskripsi perubahan"
+   git push
+
+Selesai ✅
